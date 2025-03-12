@@ -50,7 +50,7 @@ export function Hero() {
             <div className="relative p-[1px] rounded-xl z-10">
               <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-indigo-500 to-green-500 opacity-75 blur"></div>
               <img
-                src="/apphome1.png"
+                src="/apphome1.avif"
                 alt="Warpindex Interface"
                 className="relative block h-full w-full rounded-xl shadow-2xl"
               />
