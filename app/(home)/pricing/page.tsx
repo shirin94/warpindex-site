@@ -13,8 +13,6 @@ export default function PricingPage() {
   return (
     <>
       <PricingCards />
-      <PricingAddons />
-      <PricingTable />
       <FaqPricing />
       <Cta1 />
     </>

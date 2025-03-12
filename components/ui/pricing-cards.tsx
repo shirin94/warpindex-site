@@ -11,26 +11,37 @@ import { Switch } from "@/components/ui/switch";
 
 const plans = [
   {
-    title: "Free",
-    description: "Perfect for getting started",
-    price: { monthly: "$0", annually: "$0" },
-    href: "#",
+    title: "Startup",
+    description: "Perfect for small websites",
+    price: {
+      monthly: "$9",
+      annually: (
+        <span className="flex items-center">
+          $7<Badge className="ml-1">-20%</Badge>
+        </span>
+      ),
+    },
+    href: "https://app.warpindex.com/signup",
     recommended: false,
     image: "https://shadcnblocks.com/images/block/block-1.svg",
     featureGroups: [
       {
-        title: "Limits",
+        title: "Usage",
         features: [
           {
-            title: "3 users",
+            title: "2 websites",
             icon: Check,
           },
           {
-            title: "100 files",
+            title: "Unlimited URLs",
             icon: Check,
           },
           {
-            title: "2 GB storage",
+            title: "200 requests/day",
+            icon: Check,
+          },
+          {
+            title: "1 user",
             icon: Check,
           },
         ],
@@ -39,19 +50,15 @@ const plans = [
         title: "Features",
         features: [
           {
-            title: "Unlimited Links, Visits, Data-rooms",
+            title: "Sitemap auto-sync (daily)",
             icon: Check,
           },
           {
-            title: "Basic Access Controls",
+            title: "Google auto URL Indexing",
             icon: Check,
           },
           {
-            title: "Basic Integrations",
-            icon: Check,
-          },
-          {
-            title: "Email support",
+            title: "Google URL De-Indexing",
             icon: Check,
           },
         ],
@@ -59,33 +66,37 @@ const plans = [
     ],
   },
   {
-    title: "Startup",
-    description: "For growing teams",
+    title: "Growth",
+    description: "For growing businesses",
     price: {
-      monthly: "$39",
+      monthly: "$29",
       annually: (
         <span className="flex items-center">
-          $29<Badge className="ml-1">-25%</Badge>
+          $21<Badge className="ml-1">-25%</Badge>
         </span>
       ),
     },
-    href: "#",
-    recommended: false,
+    href: "https://app.warpindex.com/signup",
+    recommended: true,
     image: "https://shadcnblocks.com/images/block/block-2.svg",
     featureGroups: [
       {
-        title: "Limits",
+        title: "Usage",
         features: [
           {
-            title: "10 users",
+            title: "5 websites",
             icon: Check,
           },
           {
-            title: "1000 files",
+            title: "Unlimited URLs",
             icon: Check,
           },
           {
-            title: "20 GB storage",
+            title: "400 requests/day",
+            icon: Check,
+          },
+          {
+            title: "5 users",
             icon: Check,
           },
         ],
@@ -94,19 +105,19 @@ const plans = [
         title: "Features",
         features: [
           {
-            title: "Advanced access controls",
+            title: "Sitemap auto-sync (twice a day)",
             icon: Check,
           },
           {
-            title: "Custom subdomain",
+            title: "Google auto URL Indexing",
             icon: Check,
           },
           {
-            title: "Remove Warpindex badge",
+            title: "Google URL De-Indexing",
             icon: Check,
           },
           {
-            title: "Live chat",
+            title: "Priority support",
             icon: Check,
           },
         ],
@@ -115,32 +126,36 @@ const plans = [
   },
   {
     title: "Business",
-    description: "For professional teams",
+    description: "For large organizations",
     price: {
-      monthly: "$119",
+      monthly: "$89",
       annually: (
         <span className="flex items-center">
-          $89<Badge className="ml-1">-25%</Badge>
+          $69<Badge className="ml-1">-25%</Badge>
         </span>
       ),
     },
-    href: "#",
-    recommended: true,
+    href: "https://app.warpindex.com/signup",
+    recommended: false,
     image: "https://shadcnblocks.com/images/block/block-3.svg",
     featureGroups: [
       {
-        title: "Limits",
+        title: "Usage",
         features: [
           {
-            title: "100 users",
+            title: "25 websites",
             icon: Check,
           },
           {
-            title: "5000 files",
+            title: "Unlimited URLs",
             icon: Check,
           },
           {
-            title: "200 GB storage",
+            title: "1000 requests/day",
+            icon: Check,
+          },
+          {
+            title: "20 users",
             icon: Check,
           },
         ],
@@ -149,19 +164,19 @@ const plans = [
         title: "Features",
         features: [
           {
-            title: "Custom styling",
+            title: "Sitemap auto-sync (hourly)",
             icon: Check,
           },
           {
-            title: "Custom domain (add-on)",
+            title: "Google auto URL Indexing",
             icon: Check,
           },
           {
-            title: "Data room customizations",
+            title: "Google URL De-Indexing",
             icon: Check,
           },
           {
-            title: "Ask AI (add-on)",
+            title: "Priority support",
             icon: Check,
           },
         ],
@@ -175,7 +190,7 @@ const plans = [
       monthly: "Custom",
       annually: "Custom",
     },
-    href: "#",
+    href: "https://app.warpindex.com/signup",
     recommended: false,
     image: "https://shadcnblocks.com/images/block/block-4.svg",
     featureGroups: [
@@ -279,12 +294,14 @@ const PricingCards = () => {
                 </div>
               </div>
               <div>
+                <Link href={plan.href}>
                 <Button
                   variant={plan.recommended ? "default" : "outline"}
                   className="w-full"
                 >
                   Get started for free
                 </Button>
+                </Link>
               </div>
             </header>
             <main className="space-y-6 border-t border-border p-4 sm:p-6 md:grid md:grid-cols-2 md:space-y-0 xl:block xl:space-y-6">
@@ -309,14 +326,6 @@ const PricingCards = () => {
             </main>
           </article>
         ))}
-      </div>
-      <div className="container mt-12 flex justify-center">
-        <Link href="/pricing#pricing-comparison">
-          <Button variant="outline" size="lg" className="group">
-            Compare all features
-            <ChevronRight className="ml-2 size-4 transition-transform group-hover:-translate-y-0.5" />
-          </Button>
-        </Link>
       </div>
     </section>
   );

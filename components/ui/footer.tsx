@@ -22,10 +22,10 @@ export function Footer() {
           {/* Logo and tagline */}
           <div className="md:col-span-4">
             <Link href="/">
-              <img src="/logo.svg" alt="Warpindex" className="h-6 w-auto" />
+              <img src="/logo.png" alt="Warpindex" className="h-6 w-auto" />
             </Link>
             <p className="mt-2 text-sm text-muted-foreground">
-              Document tracking, Proposals and Data Rooms
+              Website Indxing on Autopilot
             </p>
           </div>
 
