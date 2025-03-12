@@ -17,7 +17,7 @@ interface Cta1Props {
 
 const Cta1 = ({
   heading = "Ready to Get Started?",
-  description = "Join thousands of satisfied users who share documents daily using Warpindex.",
+  description = "Join thousands of satisfied users daily using Warpindex.",
   buttons = {
     primary: {
       text: "Start Free",
