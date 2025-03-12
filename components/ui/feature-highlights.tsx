@@ -1,63 +1,60 @@
 import {
+  Zap,
+  Rocket,
+  RefreshCcw,
+  XCircle,
   BarChart3,
-  FileType,
-  Paintbrush2,
   ShieldCheck,
-  Layout,
-  Infinity,
 } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 
 const features = [
   {
-    title: "Powerful Analytics",
+    title: "One-Click Setup",
     description:
-      "Track who accesses your documents and how they interact with your content.",
+      "Just connect your Google search console and you are ready to go.",
+    icon: <Zap className="h-5" />,
+  },
+  {
+    title: "Fast Indexing",
+    description:
+      "WarpIndex will continously crawl your website and push pages to Google search for fastest indexing.",
+    icon: <Rocket className="h-5" />,
+  },
+  {
+    title: "Automatic Indexing",
+    description:
+      "WarpIndex continuously discovers new pages on your website using sitemaps after setup.",
+    icon: <RefreshCcw className="h-5" />,
+  },
+  {
+    title: "Index Removal",
+    description:
+      "You can control which pages should be indexed and which pages shouldn't be in bulk.",
+    icon: <XCircle className="h-5" />,
+  },
+  {
+    title: "Deep Analytics",
+    description:
+      "Get access to analytics and reports to monitor indexing and traffic.",
     icon: <BarChart3 className="h-5" />,
   },
   {
-    title: "Wide file support",
+    title: "Safe and Secure",
     description:
-      "Support for a wide range of file types including PDFs, images, and more.",
-    icon: <FileType className="h-5" />,
-  },
-  {
-    title: "Highly Customizable",
-    description:
-      "Customize your document sharing experience with a wide range of options including custom domains and putting your own branding.",
-    icon: <Paintbrush2 className="h-5" />,
-  },
-  {
-    title: "Multiple access control methods",
-    description:
-      "Control access to your documents with a wide range of options including email verification, passwords, domain whitelisting, access expiry and watermarking.",
+      "WarpIndex is verified by Google and accesses over the Google specific protocols for indexing.",
     icon: <ShieldCheck className="h-5" />,
-  },
-  {
-    title: "Modern UX",
-    description:
-      "A modern, easy to use interface that makes it easy to share documents with others.",
-    icon: <Layout className="h-5" />,
-  },
-  {
-    title: "Free Forever plans",
-    description:
-      "We offer free plans forever with no hidden charges. You can use all the essential features including document tracking and protection features without any cost.",
-    icon: <Infinity className="h-5" />,
   },
 ];
 
 const FeatureHighlights = () => {
   return (
-    <section className="py-32">
+    <section className="py-16">
       <div className="container max-w-5xl mx-auto">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <Badge className="mb-6" variant="outline">
-            Comprehensive and Powerful
-          </Badge>
           <h2 className="text-3xl font-medium">
-            Say Hello to Modern Document Sharing
+            Full Control over your website's indexing
           </h2>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

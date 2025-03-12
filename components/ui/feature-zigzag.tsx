@@ -2,41 +2,27 @@ import { Check } from "lucide-react";
 
 const FeatureZigZag = () => {
   return (
-    <section className="py-32">
+    <section className="py-8">
       <div className="container max-w-6xl mx-auto">
         <div className="flex flex-col space-y-10 md:space-y-16">
           <div className="lg:flex lg:gap-x-4">
             <div className="lg:w-1/2">
               <div className="mb-6 md:mb-8 lg:mb-0">
                 <img
-                  src="/feature1.png"
-                  alt="Ditch Email Attachments"
-                  className="aspect-[4/3] w-full rounded-md border border-border object-cover"
+                  src="/feature1.avif"
+                  alt="Setup with Ease"
+                  className="w-full rounded-md border border-border object-contain"
                 />
               </div>
             </div>
             <div className="lg:flex lg:w-1/2 lg:items-center lg:pl-24 2xl:pl-32">
               <div>
                 <h3 className="mb-3 text-xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
-                  Ditch the E-Mail Attachments
+                  Setup with Ease
                 </h3>
                 <p className="text-muted-foreground lg:text-lg mb-4">
-                  Warpindex lets you share important files using a branded link without worrying about file size limits or version control.
+                Just connect with Google Search Console and let WarpIndex handle the daily indexing of thousands of pages automatically.
                 </p>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-2">
-                    <Check className="h-5 w-5 text-primary mt-0.5" />
-                    <span className="text-muted-foreground">Auto-sync changes so people can access the latest version with the same link</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Check className="h-5 w-5 text-primary mt-0.5" />
-                    <span className="text-muted-foreground">Use a custom domain and styling to align with your branding</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Check className="h-5 w-5 text-primary mt-0.5" />
-                    <span className="text-muted-foreground">Embed files directly into your website</span>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
@@ -44,34 +30,20 @@ const FeatureZigZag = () => {
             <div className="lg:w-1/2">
               <div className="mb-6 md:mb-8 lg:mb-0">
                 <img
-                  src="/feature2.png"
-                  alt="Control Access to Documents"
-                  className="aspect-[4/3] w-full rounded-md border border-border object-cover"
+                  src="/feature2.avif"
+                  alt="Sit back and let WarpIndex do it's magic"
+                  className="w-full rounded-md border border-border object-contain"
                 />
               </div>
             </div>
             <div className="lg:flex lg:w-1/2 lg:items-center lg:pr-24 2xl:pr-32">
               <div>
                 <h3 className="mb-3 text-xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
-                  Control Access to Documents
+                  Sit back and let WarpIndex do it's magic
                 </h3>
                 <p className="text-muted-foreground lg:text-lg mb-4">
-                  You&apos;ll be able to control who can view, download, and edit documents, reducing the risk of unauthorized access.
+                  WarpIndex continuously scans your sitemaps for updates and repeatedly pushes your new and updated pages to the search index to get indexed fast
                 </p>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-2">
-                    <Check className="h-5 w-5 text-primary mt-0.5" />
-                    <span className="text-muted-foreground">Customize passwords, expiration limits, and download access</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Check className="h-5 w-5 text-primary mt-0.5" />
-                    <span className="text-muted-foreground">Enable email authentication or take advantage of domain whitelisting</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Check className="h-5 w-5 text-primary mt-0.5" />
-                    <span className="text-muted-foreground">Lock documents behind forms to collect leads</span>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
@@ -79,34 +51,20 @@ const FeatureZigZag = () => {
             <div className="lg:w-1/2">
               <div className="mb-6 md:mb-8 lg:mb-0">
                 <img
-                  src="/feature3.png"
-                  alt="Track User Engagement"
-                  className="aspect-[4/3] w-full rounded-md border border-border object-cover"
+                  src="/feature3.avif"
+                  alt="Monitor Indexing Progress"
+                  className="w-full rounded-md border border-border object-contain"
                 />
               </div>
             </div>
             <div className="lg:flex lg:w-1/2 lg:items-center lg:pl-24 2xl:pl-32">
               <div>
                 <h3 className="mb-3 text-xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
-                  Track User Engagement
+                  Monitor Indexing Progress
                 </h3>
                 <p className="text-muted-foreground lg:text-lg mb-4">
-                  You can also monitor real-time engagement analytics and use these insights to focus your energy on high-value prospects.
+                  Get status of indexing for each page and reasons for errors
                 </p>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-2">
-                    <Check className="h-5 w-5 text-primary mt-0.5" />
-                    <span className="text-muted-foreground">Identify the users viewing your documents</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Check className="h-5 w-5 text-primary mt-0.5" />
-                    <span className="text-muted-foreground">Find out which sections get the most engagement</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Check className="h-5 w-5 text-primary mt-0.5" />
-                    <span className="text-muted-foreground">See how much time they spent on every page</span>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
@@ -114,30 +72,41 @@ const FeatureZigZag = () => {
             <div className="lg:w-1/2">
               <div className="mb-6 md:mb-8 lg:mb-0">
                 <img
-                  src="/feature4.png"
-                  alt="eSigning and Data Rooms"
-                  className="aspect-[4/3] w-full rounded-md border border-border object-cover"
+                  src="/feature4.avif"
+                  alt="Notifications to help you address Issues"
+                  className="w-full rounded-md border border-border object-contain"
                 />
               </div>
             </div>
             <div className="lg:flex lg:w-1/2 lg:items-center lg:pr-24 2xl:pr-32">
               <div>
                 <h3 className="mb-3 text-xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
-                  eSigning and Data Rooms
+                  Notifications to help you address Issues
                 </h3>
                 <p className="text-muted-foreground lg:text-lg mb-4">
-                  You can share documents in secure, virtual data rooms for sensitive projects, high-ticket sales, user onboarding, and more.
+                  Get notified about any indexing issues with insights on how to fix them
                 </p>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-2">
-                    <Check className="h-5 w-5 text-primary mt-0.5" />
-                    <span className="text-muted-foreground">Send documents and collect e-signatures with the same platform</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Check className="h-5 w-5 text-primary mt-0.5" />
-                    <span className="text-muted-foreground">Manage legally binding documents like contracts, proposals, and NDAs</span>
-                  </li>
-                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="lg:flex lg:gap-x-4">
+            <div className="lg:w-1/2">
+              <div className="mb-6 md:mb-8 lg:mb-0">
+                <img
+                  src="/feature5.avif"
+                  alt="Handle multiple sites with thousands of pages"
+                  className="w-full rounded-md border border-border object-contain"
+                />
+              </div>
+            </div>
+            <div className="lg:flex lg:w-1/2 lg:items-center lg:pl-24 2xl:pl-32">
+              <div>
+                <h3 className="mb-3 text-xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
+                  Handle multiple sites with thousands of pages
+                </h3>
+                <p className="text-muted-foreground lg:text-lg mb-4">
+                  WarpIndex is built for scale so you can manage indexing of multiple websites with hundreds of thousands of pages.
+                </p>
               </div>
             </div>
           </div>
