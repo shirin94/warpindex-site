@@ -37,14 +37,13 @@ export function Footer() {
                 <li><Link href="/">Overview</Link></li>
                 <li><Link href="https://help.warpindex.com/en/collections/1-getting-started">Getting Started</Link></li>
                 <li><Link href="/pricing">Pricing</Link></li>
-                <li><Link href="/integrations">Integrations</Link></li>
               </ul>
             </div>
             <div>
               <h4 className="mb-3 text-sm font-semibold">Resources</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><Link href="https://help.warpindex.com">Docs</Link></li>
-                <li><Link href="https://help.warpindex.com/en/collections/12-faq">FAQ</Link></li>
+                <li><Link href="https://help.warpindex.com">Docs</Link></li>
+                <li><Link href="https://help.warpindex.com/en/collections/8-faqs">FAQ</Link></li>
                 <li><Link href="mailto:support@warpindex.com">Contact</Link></li>
               </ul>
             </div>
