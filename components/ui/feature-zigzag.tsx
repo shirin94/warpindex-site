@@ -1,4 +1,3 @@
-import { Check } from "lucide-react";
 
 const FeatureZigZag = () => {
   return (
@@ -39,7 +38,7 @@ const FeatureZigZag = () => {
             <div className="lg:flex lg:w-1/2 lg:items-center lg:pr-24 2xl:pr-32">
               <div>
                 <h3 className="mb-3 text-xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
-                  Sit back and let WarpIndex do it's magic
+                  Sit back and let WarpIndex do it&apos;s magic
                 </h3>
                 <p className="text-muted-foreground lg:text-lg mb-4">
                   WarpIndex continuously scans your sitemaps for updates and repeatedly pushes your new and updated pages to the search index to get indexed fast

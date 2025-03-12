@@ -7,8 +7,6 @@ import {
   ShieldCheck,
 } from "lucide-react";
 
-import { Badge } from "@/components/ui/badge";
-
 const features = [
   {
     title: "One-Click Setup",
@@ -54,7 +52,7 @@ const FeatureHighlights = () => {
       <div className="container max-w-5xl mx-auto">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl font-medium">
-            Full Control over your website's indexing
+            Full Control over your website&apos;s indexing
           </h2>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

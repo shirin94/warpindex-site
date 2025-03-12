@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, ChevronRight } from "lucide-react";
+import { Check } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
 

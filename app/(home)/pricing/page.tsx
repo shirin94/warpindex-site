@@ -1,6 +1,4 @@
 import PricingCards from "@/components/ui/pricing-cards";
-import PricingTable from "@/components/ui/pricing-table";
-import PricingAddons from "@/components/ui/pricing-addons";
 import FaqPricing from "@/components/ui/faq-pricing";
 import Cta1 from "@/components/ui/cta-1";
 
