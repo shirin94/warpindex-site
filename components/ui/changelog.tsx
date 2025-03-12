@@ -23,7 +23,7 @@ const Changelog1 = () => {
           <p className="mb-6 text-muted-foreground md:text-lg">
             Get the latest updates and improvements to Warpindex.
           </p>
-          <form action="https://submit-form.com/uQAExlqxW" className="mx-auto mb-9 flex w-full max-w-sm items-center space-x-2">
+          <form action="https://submit-form.com/OeDaQr1nd" className="mx-auto mb-9 flex w-full max-w-sm items-center space-x-2">
             <input type="hidden" name="form_name" value="changelog_subscription" />
             <input type="hidden" name="_redirect" value="https://warpindex.com/changelog?submission=true" />
             <Input type="email" name="email" placeholder="abc@example.com" required />

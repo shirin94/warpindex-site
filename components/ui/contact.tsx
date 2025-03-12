@@ -34,7 +34,7 @@ const Contact = () => {
             "mx-auto flex w-full flex-col gap-6 rounded-lg p-10 md:max-w-[464px]",
             "bg-muted dark:bg-muted/30 dark:border dark:border-border"
           )}>
-            <form action="https://submit-form.com/uQAExlqxW">
+            <form action="https://submit-form.com/OeDaQr1nd">
               <input type="hidden" name="form_name" value="contact_form" />
               <input type="hidden" name="_redirect" value="https://warpindex.com/contact?submission=true" />
               <div className="grid gap-4 md:grid-cols-2">

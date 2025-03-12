@@ -52,7 +52,7 @@ export function Footer() {
           {/* Subscribe section */}
           <div className="md:col-span-4">
             <h4 className="mb-3 text-sm font-semibold">Stay Updated</h4>
-            <form action="https://submit-form.com/uQAExlqxW" className="flex flex-col gap-4">
+            <form action="https://submit-form.com/OeDaQr1nd" className="flex flex-col gap-4">
               <input type="hidden" name="form_name" value="footer_subscription" />
               <input type="hidden" name="_redirect" value="https://warpindex.com/?submission=true&form_type=subscribe" />
               <div className="flex gap-2">
