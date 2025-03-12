@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "pnpm build:sitemap && next build && pnpm build:post",
+    "build": "next build && pnpm build:sitemap && pnpm build:post",
     "build:post": "npx tsx ./scripts/post-build.mts",
     "build:sitemap": "npx tsx ./scripts/generate-sitemap.mts",
     "dev": "next dev",

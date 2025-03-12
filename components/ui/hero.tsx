@@ -2,8 +2,6 @@
 
 import Link from 'next/link';
 import { Button } from "@/components/ui/button";
-import AnimatedShinyTextLabel from "@/components/ui/animated-shiny-text-label";
-import { cn } from "@/lib/utils";
 import { useEffect, useRef, useState } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { CheckCircle2 } from "lucide-react";
