@@ -28,7 +28,7 @@ export function Hero() {
           <div className="z-10 flex flex-col items-center gap-6 text-center">
             <div>
               <h2 className="mb-6 text-center text-3xl font-medium text-gray-900 dark:text-gray-50 sm:text-6xl">
-                Website Indexing,{' '}
+                Website Indexing{' '}
                 <span className="animate-text-gradient inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text leading-tight text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
                   on Autopilot
                 </span>
