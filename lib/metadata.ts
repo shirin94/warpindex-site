@@ -9,19 +9,19 @@ export function createMetadata(metadata: Metadata): Metadata {
     ...metadata,
     title: {
       template: '%s | Warpindex',
-      default: 'Control access to shared files, track engagement, collect e-signatures, and create secure data rooms with Warpindex’s modern document sharing platform.',
+      default: 'Website Indexing on Autopilot. Boost your website SEO with Warpindex.',
     },
-    description: 'Website Indxing on Autopilot. Generate end-to-end tests with 10x speed using Gen AI.',
+    description: 'Website Indexing on Autopilot. Boost your website SEO with Warpindex.',
     metadataBase: baseUrl,
     openGraph: {
-      title: 'Control access to shared files, track engagement, collect e-signatures, and create secure data rooms with Warpindex’s modern document sharing platform.',
-      description: 'Website Indxing on Autopilot. Generate end-to-end tests with 10x speed using Gen AI.',
+      title: 'Website Indexing on Autopilot. Boost your website SEO with Warpindex.',
+      description: 'Warpindex continuously scans your site and pushes pages to Google Index to boost your website SEO.',
       type: 'website',
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Control access to shared files, track engagement, collect e-signatures, and create secure data rooms with Warpindex’s modern document sharing platform.',
-      description: 'Website Indxing on Autopilot. Generate end-to-end tests with 10x speed using Gen AI.',
+      title: 'Website Indexing on Autopilot. Boost your website SEO with Warpindex.',
+      description: 'Warpindex continuously scans your site and pushes pages to Google Index to boost your website SEO.',
     },
   };
 }
